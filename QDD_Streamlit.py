@@ -37,7 +37,7 @@ page = st.sidebar.radio("Aller vers",pages)
 if page == pages[0]:
     
   
-   img1 = Image.open("https://groupeaudiens-my.sharepoint.com/:i:/r/personal/aly_traore_audiens_org/Documents/Documents/CoQDD/Diapositive1.PNG?csf=1&web=1&e=BaWtZP")
+   img1 = Image.open("Diapositive1.PNG")
    st.image(img1, caption='Image Source: Audiens', width=None, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
 
    
@@ -48,7 +48,7 @@ elif page == pages[1]:
     
    st.subheader("1. Introduction")
    
-   img3 = Image.open("C:/Users/aly.traore/Documents/GitHub/QDD_2022/Diapositive3.jpg")
+   img3 = Image.open("Diapositive3.PNG")
    st.image(img3)
 
 
