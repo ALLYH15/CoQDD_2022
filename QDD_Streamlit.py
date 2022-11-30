@@ -23,13 +23,14 @@ st.sidebar.title("Sommaire")
 
 pages=['Comité de QDD',
        'Introduction',
-       'L’approche opérationnelle de la QDD',
-       'La cartographie des flux de données', 
-       'Le tableau de bord',
-       'Le suivi du contrôle de la QDD',
-       'Le retard et le fichier de synthèse des contrôles',
-       'Les contrôles faits',
-       "l'evolution du tableau de bord"]
+       'Approche opérationnelle de la QDD',
+       'Cartographie des flux de données', 
+       'Tableau de bord',
+       'Suivi du contrôle de la QDD',
+       'Retard et le fichier de synthèse des contrôles',
+       'Contrôles faits',
+       "Evolution du tableau de bord",
+       "Merci pour votre attention"]
 
 page = st.sidebar.radio("Aller vers",pages)
 
