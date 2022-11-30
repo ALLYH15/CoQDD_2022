@@ -37,7 +37,7 @@ page = st.sidebar.radio("Aller vers",pages)
 if page == pages[0]:
     
   
-   img1 = Image.open("https://github.com/ALLYH15/CoQDD_2022/Diapositive1.PNG")
+   img1 = Image.open("https://github.com/ALLYH15/CoQDD_2022/blob/9fb0d5a4b098e6ed8d1d0e72c09b8e29d5f2ef0e/Diapositive1.PNG")
    st.image(img1, caption='Image Source: Audiens', width=None, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
 
    
